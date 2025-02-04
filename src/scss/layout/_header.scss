@@ -1,0 +1,21 @@
+@use 'base/variables' as v;
+
+.header{
+    background-color: v.$verde;
+    .contenido-header{
+        padding: 2rem;
+        display: flex; //alinear horizontalmente o verticalmente 
+        justify-content: space-between;
+        align-items: center;
+    }
+    h1{
+        color: v.$blanco;
+        margin: 0; //le ponemos 0 de margen
+    }
+}
+
+.navegacion-principal{
+    a{
+        color:v.$blanco;
+    }
+}

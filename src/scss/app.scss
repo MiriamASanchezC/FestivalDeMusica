@@ -1,7 +1,5 @@
-@use 'base/variables' as v;
+//@use 'base/variables' as v; //usamos use en caso de que queramos acceder a una variable 
+//@forward 'base/normalize'; //forward es cuando quereos extraer le contenido de una hoja de estilos
 
-body{
-    font-family: v.$fuente_principal;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
+@forward 'base';
+@forward 'layout';
